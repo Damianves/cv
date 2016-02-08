@@ -1,20 +1,71 @@
 <html>	
 <head>
 	<title>homepage</title>
-	<link rel="stylesheet" type="text/css" href="exm.css">
+	<link rel="stylesheet" type="text/css" href="test.css">
 	<meta charset="UTF-8">
-	
+	<style>
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #111;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #A5ABAD;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+	 </style>
+
 </head>
 <body>
 <ul>
-  <li><a class="active" href="http://www.home.damianvanes.dvc-icta.nl/">Home</a></li>
-  <li><a href="#news">nog niks</a></li>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
   <div class="dropdown">
-    <a href="#" class="dropbtn">Site</a>
+    <a href="#" class="dropbtn">Dropdown</a>
     <div class="dropdown-content">
-      <a href="http://damianvanes.dvc-icta.nl/">Goede...</a>
-      <a href="http://damianvanes.dvc-icta.nl/ab/absolutely.html">Absolutely</a>
-      <a href="http://damianvanes.dvc-icta.nl/cal/phpcal.php">calculator</a>
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
     </div>
   </div>
 </ul>
@@ -47,20 +98,16 @@
 		
 		<div class="opdracht2">
 			<img src="absolutely.png">
-			<p><span class="good">Dit is een opdracht genaamd Absolutely <span>Deze opdracht bestaat uit de volgende talen: Html - css - php.</span></span>
-			<p><span class="wat">Wat kan deze site?<span> Deze site heeft bewegende plaatjes en tevoorschijn komende tekst</span></span></p>
 			
-			<h2><a href="http://damianvanes.dvc-icta.nl/ab/absolutely.html">bekijk de opdracht</a> </h2>
+			<h2><a href="#">bekijk de opdracht</a> </h2>
 			
 		</div>
-		<div class="footer"><h4>Made By Damian</h4></div>
 	</div>
-	<div class="footer2">
-		<h4>Made By Damian</h4>
-	</div>
-	
-	
+	<footer>
+		<h3>Made by Damian</h3>
+	</footer>
 
 </body>
-
+<!--#717582;
+border:5px #717582 solid;-->
 </html>	

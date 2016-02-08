@@ -1,0 +1,48 @@
+body.good{
+	background-color: green;
+}
+body.false{
+	background-color: red;
+}
+
+div.notok{
+	width: 700px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid black;
+	padding: 20px;
+	background-color: #ddd;
+	font-family: Verdana;
+	height: 500px;
+	font-size: 20px;
+}
+div.ok{
+	display:none;
+}
+label{
+	
+	width: 200px;
+}
+input[name=name]{
+	margin-bottom: 5px;
+	width: 200px;
+	font-size: 20px;
+	margin-left: 74px;
+}
+input[name=username]{
+	margin-bottom: 5px;
+	width: 200px;
+	font-size: 20px;
+	margin-left: 30px;
+}
+input[name=password]{
+	margin-bottom: 5px;
+	width: 200px;
+	font-size: 20px;
+	margin-left: 10px;
+}
+* {
+	box-sizing: border-box;
+	
+}

@@ -99,7 +99,7 @@ background-color:green;
 div.goedemorgen{
 
 width:80%;
-border:3px #277991 solid;
+border:3px white solid;
 margin-left:auto;
 margin-right: auto;
 margin-top:5px;
@@ -109,7 +109,7 @@ margin-top:5px;
 div.opdracht1{
 
 width:80%;
-border:3px #277991 solid;
+border:3px white solid;
 margin-left:auto;
 margin-right: auto;
 margin-top:5px;
@@ -118,7 +118,7 @@ margin-top:5px;
 div.opdracht2{
 
 width:80%;
-border:3px #277991 solid;
+border:3px white solid;
 margin-left:auto;
 margin-right: auto;
 margin-top:5px;
@@ -275,7 +275,7 @@ display: none;
 .good:hover span{
 display:block;
 font-size: 20px;
-color:red;
+color:white;
 }
 .wat span{
 display: none;
@@ -284,7 +284,7 @@ display: none;
 .wat:hover span{
 display:block;
 font-size: 20px;
-color:red;
+color:white;
 }
 
 h1{
@@ -325,6 +325,7 @@ div.footer{
   display: none;
 }
 div.footer2{
+  display:block;
   width: 100%;
   margin-top: 50px;
   height: 50px;
@@ -382,7 +383,7 @@ position: absolute;
 top: 500;
 left:250;
 width:300px;
-border:3px #277991 solid;
+border:3px white solid;
 
 
 }
@@ -392,7 +393,7 @@ position: absolute;
 top:500;
 left:600;
 width:300px;
-border:3px #277991 solid;
+border:3px white solid;
 
 }
 
@@ -401,7 +402,7 @@ position: absolute;
 top:500;
 right:250;
 width:300px;
-border:3px #277991 solid;
+border:3px white solid;
 
 }
 

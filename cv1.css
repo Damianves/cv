@@ -1,0 +1,35 @@
+body{
+
+}
+
+div.personal{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	background-color:white;
+	height:50px;
+}
+
+li{
+	display:inline;
+	list-style-type:none;
+}
+
+.eew span {
+	display:none;
+	position:absolute;
+	top:1.2em;
+	left:0px;
+	width:100px;
+	
+	background-color:aqua;
+	border:1px solid black;
+	color:white;
+	padding:3px;
+}
+
+.eew:hover span {
+	display:block;
+	z-index:20;
+}
